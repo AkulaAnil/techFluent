@@ -1,0 +1,87 @@
+.sty {
+    margin-left: 25px;
+}
+
+.sty-text {
+    font-size: 14px;
+}
+
+li > a{
+    color: blue;
+}
+
+.active-link {
+    border-bottom: 2px solid #73b6e5;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#section-1 {
+    background-image: url('../Images/home_page_header1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* background-color: #3b6699;  */
+    background-color: rgb(106, 115, 218);
+    opacity: 0.9; 
+    height: 600px;
+}
+
+#text {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.img-style {
+    height: 400px;
+    margin-left: 20px;
+
+}
+
+#section-2, #section-4 {
+    background-color: #f5fafd;
+}
+
+#section-4 {
+    height: 240px;
+}
+
+.hr {
+    width: 333px;
+    margin-left: -20px;
+}
+
+.card-hover:hover {
+    transition: 0.5s;
+    transform: scale(1.01);
+    box-shadow: 6px 8px 5px lightgrey;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    margin-top: -15px;
+}
+
+.sty-icon {
+    font-size: 50px;
+    color: #fff;
+}
+.foo-first {
+    margin-left: 20px;
+}
+.foo-down {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.active-footer {
+    background-color: orange;
+    height: 300px;
+}
+.side {
+    border-left: 2px solid gray;
+}
